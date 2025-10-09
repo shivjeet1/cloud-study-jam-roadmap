@@ -1,35 +1,270 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Registration Form</title>
-  <link href="style.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Google Cloud Study Jam 2025 Roadmap</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta property="og:url" content="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYQM9mkP5Y36ocFaF2VxaKBJ_W3aW6CQYId01aEzugx75L5hyTRNtGdVQUBYW95Wev-_YDPsOYDqdV/pubhtml/sheet?headers%5Cx3dfalse&gid=0&usp=embed_facebook">
 </head>
 <body>
-  <form id="registration-form" action="mailto:shivamlavhalepatil@gmail.com" method="post" enctype="text/plain">
-    <h2>Registration Form</h2>
+  <header class="topbar">
+    <div class="container">
+      <h1 class="brand">Cloud Jam Roadmap</h1>
+      <p class="tag">A pastel-themed roadmap for Google Cloud Study Jams, generated from your provided data.</p>
+      <nav class="quick-links">
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYQM9mkP5Y36ocFaF2VxaKBJ_W3aW6CQYId01aEzugx75L5hyTRNtGdVQUBYW95Wev-_YDPsOYDqdV/pubhtml/sheet?headers%5Cx3dfalse&gid=0&usp=embed_facebook" target="_blank" rel="noopener">Original Sheet</a>
+      </nav>
+    </div>
+  </header>
 
-    <label for="full_name">Name:</label><br>
-    <div class="name"><input class="fname" type="text" id="full_name" name="full_name" placeholder="First Name" autofocus required><input class="mname"type="text" id="full_name" name="full_name" placeholder="Middle Name" autofocus required><input class="lname" type="text" id="full_name" name="full_name" placeholder="Last Name" autofocus required></div>
+  <main class="container">
+    <section class="summary">
+      <h2>Overview</h2>
+      <p>This roadmap outlines each Study Jam milestone with a clean, pastel-glass aesthetic. All links to YouTube and Cloud Skills Boost are preserved directly from the source file.</p>
+    </section>
 
-    <label for="">Date of Birth:</label><br>
-    <input type="date" id="date" name="date" required><br><br>
+    <section class="cards-grid" aria-label="Roadmap cards">
+      <article class="card compute">
+        <header class="card-head">
+          <h3>The Basics of Google Cloud Compute</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn the fundamentals of Google Cloud's compute services.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/754?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFZUnmYfGkMAUxGCBEyP8nKx" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
 
-    <label for="Address">Address:</label><br>
-    <textarea name="Address" id="" cols="30" rows="10"></textarea>
+      <article class="card storage">
+        <header class="card-head">
+          <h3>Get Started with Cloud Storage</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn the fundamentals of Google Cloud Storage.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/725?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbJVVS2nsjvu7baetHpwixk" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
 
-    <label for="Contact">Contact:</label><br>
-    <input type="tel" placeholder="xxxxxxxxxx" maxlength="10"><br><br>
+      <article class="card data">
+        <header class="card-head">
+          <h3>Get Started with Pub/Sub</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn about the Pub/Sub messaging service.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/728?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFZGgtjo6UWYHgsKv8UuaknK" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
 
-    <label for="email_addr">Email address:</label><br>
-    <input type="email" id="email_addr" name="email_addr" placeholder="xyz@xyz.com" required><br><br>
+      <article class="card security">
+        <header class="card-head">
+          <h3>Get Started with API Gateway</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to understand how to manage and secure APIs with API Gateway.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/662?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbCGuz8Xa4fH8mAxUsFfXb2" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+      
+      <article class="card kickoff">
+        <header class="card-head">
+          <h3>Get Started with Looker</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to explore data visualization and business intelligence with Looker.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/647?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFZc5l3dScUgv6q4ZJ2k8XDg" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
 
-    <label>Aadhar:</label><br>
-    <input type="tel" placeholder="xxxxxxxxxxxx" maxlength="12" ><br><br>
+      <article class="card compute">
+        <header class="card-head">
+          <h3>Get Started with Dataplex</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn how to manage, monitor, and govern your data with Dataplex.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/726?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbWFEDLsBa-C0qbjQyExeI6" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+      
+      <article class="card storage">
+        <header class="card-head">
+          <h3>Get Started with Google Workspace Tools</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to integrate and automate tasks within Google Workspace.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/676?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFYljo63lE4rj-VYElhRAGxK" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
 
-    <div class="buttons"><button type="submit">Register</button><button type="reset" >Reset</button></div>
-    </form>
+      <article class="card data">
+        <header class="card-head">
+          <h3>App Building with Appsheet</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to build no-code applications using AppSheet.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/635" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFavBBs7KUCIG61bjdvryMH7" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
 
+      <article class="card security">
+        <header class="card-head">
+          <h3>Develop with Apps Script and AppSheet</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to combine Apps Script and AppSheet for powerful solutions.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/715" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFawqH2RxI2uGz3qdfTcTJNx" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card kickoff">
+        <header class="card-head">
+          <h3>Build a Website on Google Cloud</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn how to host and deploy a website on Google Cloud.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/638" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbYZf8quWVZ6DVH1MbFyUjV" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card compute">
+        <header class="card-head">
+          <h3>Set Up a Google Cloud Network</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to understand the fundamentals of networking in Google Cloud.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/641" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbdYwkCXbVqFJ5lXEsWjslJ" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card storage">
+        <header class="card-head">
+          <h3>Store, Process, and Manage Data on Google Cloud - Console</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to manage data effectively using the Google Cloud Console.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/658" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFYpHc0n44kN7TRBvBvk0XFe" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+      
+      <article class="card data">
+        <header class="card-head">
+          <h3>Cloud Functions: 3 Ways</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to explore different methods for deploying Cloud Functions.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/696?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFYJu5IGXb0G42-bih8SE82d" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card security">
+        <header class="card-head">
+          <h3>App Engine: 3 Ways</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn various approaches to deploying applications on App Engine.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/671?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFalrNP0kQZNt3-FGruLcnWY" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+      
+      <article class="card kickoff">
+        <header class="card-head">
+          <h3>Cloud Speech API: 3 Ways</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to convert audio to text using Google's Speech-to-Text API.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/700?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFa9CPvVL59kw45c9SsyJTal" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card compute">
+        <header class="card-head">
+          <h3>Monitoring in Google Cloud</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to learn about monitoring, logging, and observability in the cloud.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/747?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbfN2sVWDwT5VvOTkAZhoKA" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card storage">
+        <header class="card-head">
+          <h3>Analyze Speech and Language with Google APIs</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to use the Natural Language and Speech-to-Text APIs.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/634" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbj0uP6A5912ErFLohuNQqy" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card data">
+        <header class="card-head">
+          <h3>Prompt Design in Vertex AI</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to master the art of designing effective prompts for GenAI models.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/976?utm_source%253Dgcaf-site%2526utm_medium%253Dwebsite%2526utm_campaign%253Darcade-facilitator24" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFb79wRCWu_d_GKNXvld5ZhI" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card security">
+        <header class="card-head">
+          <h3>Develop GenAI Apps with Gemini and Streamlit</h3>
+        </header>
+        <p class="card-body">Complete this skill badge to build generative AI applications with Gemini and Streamlit.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/course_templates/978" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFbWVnjEO7K3CgaHZjEiBgV7" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+
+      <article class="card kickoff">
+        <header class="card-head">
+          <h3>Level 3: Generative AI</h3>
+        </header>
+        <p class="card-body">Complete this advanced arcade game to test your Generative AI skills on Google Cloud.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.cloudskillsboost.google/games/6554" target="_blank" rel="noopener">Skills Boost</a>
+          <a class="btn ghost" href="https://www.youtube.com/playlist?list=PLzJwCIvZuAFYMoPpXM8CIx10hPmHiifyY" target="_blank" rel="noopener">YouTube Guide</a>
+        </div>
+      </article>
+      
+      <article class="card social">
+        <header class="card-head">
+          <h3>Connect with GDG SSGMCE</h3>
+        </header>
+        <p class="card-body">Follow the Google Developer Group at SSGMCE for updates, events, and community news.</p>
+        <div class="card-actions">
+          <a class="btn ghost" href="https://www.instagram.com/gdg.ssgmce?igsh=MXRydWswcnBxcXNsdg==" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <small>© 2025 Cloud Study Jam Roadmap. All original external links retained.</small>
+      <br>
+      <p><a href="https://github.com/shivjeet1">Made by Shivam Lavhale</a></p>
+    </footer>
+  </main>
 </body>
 </html>
