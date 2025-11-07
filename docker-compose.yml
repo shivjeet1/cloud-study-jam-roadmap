@@ -1,0 +1,9 @@
+
+services:
+  web:
+    image: nginx:alpine
+    volumes:
+      - .:/usr/share/nginx
+    ports:
+      - "1313:80"
+
